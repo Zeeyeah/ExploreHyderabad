@@ -1,0 +1,283 @@
+
+@media (max-width: 600px) {
+  
+ 
+    
+   
+    .ground-wide{
+      display: none;
+    }
+    
+    .charminar{
+      width: 150px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom: 242px;
+    }
+    
+    .ground-box{
+      background-color: rgba(21,25,38,1);
+      width: 150vw;
+      height: 200px;
+      position: absolute;
+      bottom: -100px;
+      border-radius: 50%;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+    
+    
+    .circle-three{
+      width: 280px;
+      height: 280px;
+      opacity: 5%;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      border: 10px white solid;
+    }
+    .circle-two{
+      width: 240px;
+      height: 240px;
+      opacity: 10%;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+    }
+    
+    .circle-one{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      bottom: 30%;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .cloud{
+      display: block;
+      position: absolute;
+      bottom: 30%;
+    }
+    
+    .stars{
+      position: absolute;
+      top: 20%;
+      opacity: 60%;
+    }
+    
+    .park-bench{
+      position: absolute;
+      width: 35%;
+      bottom: 10%;
+      right: 10%;
+      pointer-events: none;
+    }
+    .park-light{
+      pointer-events: none;
+      position: absolute;
+      width: 20%;
+      bottom: 10%;
+      right: 35%;
+    }
+    .park-wheel{
+      pointer-events: none;
+      position: absolute;
+      width: 30%;
+      right: 0;
+      transform: translateX(2%);
+      bottom: 10%;
+    }
+    .park-mountain{
+      pointer-events: none;
+      position: absolute;
+      width: 100%;
+      bottom: 10vh;
+    }
+    .park-ground{
+      pointer-events: none;
+      position: absolute;
+      bottom: 0;
+      height: 10vh;
+      width: 100%;
+      background: linear-gradient(0deg, #025D56 0%, #004339 80%);;
+    }
+    
+    .buddha-bridge{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: block;
+  }
+  .buddha-statue{
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      
+      display: block;
+  }
+  .buildings1{
+      width: 100%;
+      position: absolute;
+      bottom: 9%;
+      left: 0;
+      display: block;
+  }
+  .buildings2{
+      width: 100%;
+      position: absolute;
+      bottom: 10%;
+      left: 0;
+      display: block;
+      display: block;
+  }
+  .buddha-sun{
+      display: block;
+      display: block;
+      position: absolute;
+      top: 70%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 50%;
+  }
+  .lakes-menu{
+    height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(0deg, #feefa0 0%, #da8b7f 60%, #775375 100%);
+    overflow: hidden;
+}
+    .buddha-art{
+      display: none;
+    }
+      
+    }
+
+
+    @media (max-width: 600px){
+      
+      .nav-container{
+        display: flex;
+        justify-content: space-between;
+       list-style: none;
+       height: 40px;
+       font-family:  'Segoe UI','PT Sans', sans-serif;
+       position: sticky;
+       top: 0;
+       z-index: 10000;
+      }
+      .hyd-logo, .exp-logo{
+        display: none;
+      }
+      .nav-item{
+        margin: auto 10px;
+        display: none;
+      }
+      .nav-back{
+        filter: brightness(1000%);
+        cursor: pointer;
+      }
+      .hamburger{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 1px;
+        width: 10px;
+        margin: 3%;
+        cursor: pointer;
+        width: 20px;
+        height: 35px;
+        z-index: 22;
+      }
+      .hamburger-icon{
+        position: absolute;
+        right: 0;
+        top: -2%;
+        height: 1px;
+        width: 10px;
+        background-color: white;
+        margin: 7px 3px;
+        z-index: 22;
+        transition: all 0.5 ease-in-out;
+      }
+      .hamburger-icon::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 1px;
+        width: 20px;
+        background-color: white;
+        margin: 7px 0;
+        transition: all 0.5 ease-in-out;
+      }
+      .hamburger-icon::before{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 1px;
+        width: 20px;
+        background-color: white;
+        margin: -7px 0;
+        transition: all 0.5 ease-in-out;
+      }
+      .hamburger-icon-cross{
+        position: absolute;
+        right: 0;
+        top: -2%;
+        height: 1px;
+        width: 0px;
+        background-color: white;
+        transition: all 0.5 ease-in-out;
+        margin: 7px 3px;
+        z-index: 22;
+      }
+      .hamburger-icon-cross::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 1px;
+        width: 20px;
+        background-color: white;
+        margin: 7px 0;
+        transform: rotateZ(45deg) translateY(-6px) translateX(-6px);
+        transition: all 0.5 ease-in-out;
+      }
+      
+      .hamburger-icon-cross::before{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 1px;
+        width: 20px;
+        background-color: white;
+        margin: -7px 0;
+        transform-origin: center;
+        transform: rotateZ(-45deg) translateY(4px) translateX(-4px);
+        transition: all 0.5 ease-in-out;
+        transition: all 0.5 ease-in-out;
+      }
+     
+      .hamburger-menu{
+        transition: all 0.5 ease-in-out;
+        width: 0vw;
+        height: 0vh;
+        position: absolute;
+        right: 0;
+        background-color: black;
+        border-radius: 50%;
+      }
+    }

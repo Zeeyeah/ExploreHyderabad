@@ -1,0 +1,304 @@
+.card-park{
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+    height: 60vh;
+    min-width: 60vw;
+    background: linear-gradient(0deg, #ACD5A0 0%, #003A2E 80%);
+  }
+
+  .card-park-transition{
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(0deg, #ACD5A0 0%, #003A2E 80%);
+  }
+
+  
+  .park-bench{
+    position: absolute;
+    width: 20%;
+    bottom: 10%;
+    right: 15%;
+    pointer-events: none;
+  }
+  
+  .park-light{
+    pointer-events: none;
+    position: absolute;
+    width: 10%;
+    bottom: 10%;
+    right: 30%;
+  }
+  .park-wheel{
+    pointer-events: none;
+    position: absolute;
+    width: 20%;
+    right: 0;
+    transform: translateX(2%);
+    bottom: 10%;
+  }
+  .park-mountain{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    bottom: 10vh;
+  }
+  .park-ground{
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #025D56 0%, #004339 80%);;
+  }
+.parks-expanded{
+    transition: all 0.5s ease-in-out;
+    min-height: 60vh;
+    max-height: 60vh;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 0 1px;
+    overflow: hidden;
+  }
+  .park-overlay{
+    transition: all 0.5s ease-in-out;
+    height: 60vh;
+    width: 200px;
+    position: absolute;
+    background-color: rgba(172, 213, 160, .6);
+    transform-origin: top;
+    z-index: 10;
+  }
+  .park-overlay-expand{
+    transition: all 0.5s ease-in-out;
+    height: 60vh;
+    width: 400px;
+    transform: translateY(-110%);
+    transform-origin: bottom;
+    position: absolute;
+    background-color: rgba(172, 213, 160, .9);
+  }
+  .park-title{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    color: #025D56;
+  }
+  .park-title-expand{
+    position: absolute;
+    bottom: 70%;
+    margin-left: 10px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .park-info{
+    height: 100%;
+    width: 200px;
+    background: linear-gradient(0deg, black 0%, rgba(0,0,0, 0) 90%);
+    position: absolute;
+    bottom: -1px;
+    transform-origin: bottom;
+    transform: scaleY(15%);
+    transition: all 0.5s ease-in-out;
+    color: white;
+  }
+  .park-info > p {
+      transition: all 0.5s ease-in-out;
+      transform: translateY(200%);
+      opacity: 0%;
+      pointer-events: none;
+    }
+  .park-info-expand{
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 400px;
+    background: linear-gradient(0deg, rgba(0,0,0, .5) 0%, rgba(0,0,0, 0) 90%);
+    position: absolute;
+    bottom: -1px;
+    transform-origin: bottom;
+    transform: scaleY(95%);
+  }
+  .park-info-expand > p {
+    transition: all 0.5s ease-in-out;
+    margin: 35% 0px 10px 10px;
+  }
+  
+  .park-headline{
+    margin: 70px 20px;
+    text-decoration: none;
+    color: white;
+  }
+ .park-headline-info{
+   pointer-events: none;
+ }
+ .park-headline-button{
+   background-color: #1a3624;
+   padding: 5px 10px;
+   color: white;
+   margin-top: 10px;
+   font-weight: 500;
+   text-decoration: none;
+   width: 100px;
+   border-radius: 7px;
+   cursor: pointer;
+ }
+ .park-headline-button > svg {
+   position: absolute;
+   padding-top: -1px;
+   margin-left: 5px;
+   width: 20px;
+   transform: rotateZ(-90deg);
+ }
+ .park-headline-info > p{
+   width: 40%;
+   font-size: 14px;
+ }
+.park-menu{
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .card-park-open{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: linear-gradient(0deg, #ACD5A0 0%, #003A2E 80%);
+    font-family: 'PT Sans', sans-serif;
+  }
+  .parks-cards{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #025d56;
+    color: white;
+    font-family:  'Segoe UI','PT Sans', sans-serif;
+    position: relative;
+  }
+  .park-wrapper{
+    overflow: hidden;
+  }
+  .park-corousel{
+   display: flex;
+   position: relative;
+   margin: 0 5px;
+   z-index: 23;
+  }
+  .parks{
+    height: 60vh;
+    min-width: 200px;
+    transition: all 0.5s ease-in-out;
+    max-width: 200px;
+    margin: 0 1px;
+    overflow: hidden;
+    background-color: #1a3624;
+  }
+  .park > h2{
+    color: transparent;
+  }
+  .parks > img {
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    filter: grayscale(100%);
+  }
+  .parks-expanded > img {
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  .card-park-open > a {
+    position: absolute;
+    left: 50%;
+    transform: translate(-10%, 0);
+  }
+  .park-maps{
+    height: 30px;
+    width: 80px;
+    background-color: #025D56;
+    opacity: 80%;
+    margin: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .park-maps > img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    filter: invert(100%);
+  }
+  .park-web{
+    height: 30px;
+    width: 80px;
+    background-color: #004339;
+    margin: 20px 10px;
+  }
+  .park-to-top{
+    position: absolute;
+    bottom: 5%;
+    right: 30px;
+    z-index: 33;
+    background: linear-gradient(0deg, #025D56 0%, #004339 80%);;
+    color: #f0e091;
+    border: 1px solid #003A2E;
+    border-radius: 50%;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+   }
+   .park-to-top > svg{
+     transform: rotateZ(90deg);
+   }
+
+
+  .wave-park {
+    background: url(../SVG/wave-park.svg) repeat-x;
+    position: absolute;
+    bottom: 0;
+    width: 6400px;
+    height: 168px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .wave-park:nth-of-type(2) {
+    bottom: 0;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  @keyframes swell {
+    0%,
+    100% {
+      transform: translate3d(0, -35px, 0);
+    }
+    50% {
+      transform: translate3d(0, 5px, 0);
+    }
+  }
+  .endWave{
+    display:none;
+  }
