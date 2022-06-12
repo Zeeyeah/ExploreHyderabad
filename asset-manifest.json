@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ExploreHyderabad/static/css/main.4a48f274.css",
-    "main.js": "/ExploreHyderabad/static/js/main.76758eb2.js",
+    "main.css": "/ExploreHyderabad/static/css/main.e893a569.css",
+    "main.js": "/ExploreHyderabad/static/js/main.1f92e0b5.js",
     "static/media/Jalvihar.jpg": "/ExploreHyderabad/static/media/Jalvihar.cc4f04cd3b000ae238af.jpg",
     "static/media/EscapePark.jpg": "/ExploreHyderabad/static/media/EscapePark.f1f807c9e097e2fa4828.jpg",
     "static/media/lotuspond.jpg": "/ExploreHyderabad/static/media/lotuspond.7b5187231aaf46c9a4f3.jpg",
@@ -39,11 +39,11 @@
     "static/media/wave.svg": "/ExploreHyderabad/static/media/wave.d02a4002e215408b5bbc.svg",
     "static/media/masjid-mountain.svg": "/ExploreHyderabad/static/media/masjid-mountain.ac14d567974a0fa321fd6a790f620f7e.svg",
     "static/media/park-mountain.svg": "/ExploreHyderabad/static/media/park-mountain.74a3e1192510c6c611c2ecfad0bccb8b.svg",
-    "main.4a48f274.css.map": "/ExploreHyderabad/static/css/main.4a48f274.css.map",
-    "main.76758eb2.js.map": "/ExploreHyderabad/static/js/main.76758eb2.js.map"
+    "main.e893a569.css.map": "/ExploreHyderabad/static/css/main.e893a569.css.map",
+    "main.1f92e0b5.js.map": "/ExploreHyderabad/static/js/main.1f92e0b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a48f274.css",
-    "static/js/main.76758eb2.js"
+    "static/css/main.e893a569.css",
+    "static/js/main.1f92e0b5.js"
   ]
 }
